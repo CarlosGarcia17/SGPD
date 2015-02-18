@@ -1,0 +1,143 @@
+.tabla{
+    border:1px solid #91909c;
+    background-color:#91909c;
+    -moz-border-radius-bottomleft:11px;
+    -webkit-border-bottom-left-radius:11px;
+    border-bottom-left-radius:11px;
+    -moz-border-radius-bottomright:11px;
+    -webkit-border-bottom-right-radius:11px;
+    border-bottom-right-radius:11px;
+    -moz-border-radius-topright:11px;
+    -webkit-border-top-right-radius:11px;
+    border-top-right-radius:11px;
+    -moz-border-radius-topleft:11px;
+    -webkit-border-top-left-radius:11px;
+    border-top-left-radius:11px;
+}
+.tabla td{
+    -moz-border-radius-bottomleft:11px;
+    -webkit-border-bottom-left-radius:11px;
+    border-bottom-left-radius:11px;
+    -moz-border-radius-bottomright:11px;
+    -webkit-border-bottom-right-radius:11px;
+    border-bottom-right-radius:11px;
+    -moz-border-radius-topright:11px;
+    -webkit-border-top-right-radius:11px;
+    border-top-right-radius:11px;
+    -moz-border-radius-topleft:11px;
+    -webkit-border-top-left-radius:11px;
+    border-top-left-radius:11px;
+    background:-o-linear-gradient(bottom, #ff7f00 5%, #ffaa56 100%);
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #ffaa56) ); 
+    background:-moz-linear-gradient( center top, #ff7f00 5%, #ffaa56 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#ffaa56");
+    background: -o-linear-gradient(top,#ff7f00,0000ff);
+    background-color:#ff7f00;
+    border:1px solid #91909c;
+    border-width:0px 1px 1px 0px;
+    font-size:20px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}
+.tabla tr:first-child td{
+    background:-o-linear-gradient(bottom, #91909c 5%, #91909c 100%);	
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #91909c), color-stop(1, #91909c) );
+    background:-moz-linear-gradient( center top, #91909c 5%, #91909c 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#91909c", endColorstr="#91909c");	
+    background: -o-linear-gradient(top,#91909c,ff7f00);
+    background-color:#91909c;
+    border:0px solid #91909c;
+    border-width:0px 0px 1px 1px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;}
+.tabla tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #91909c 5%, #91909c 100%);	
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #91909c), color-stop(1, #91909c) );
+    background:-moz-linear-gradient( center top, #91909c 5%, #91909c 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#91909c", endColorstr="#91909c");	
+    background: -o-linear-gradient(top,#91909c,ff7f00);
+    background-color:#91909c;
+}
+#header
+{
+    background-image: url("header.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+#cuerpo
+{
+    text-align: center;
+    font-family: "Times New Roman";
+}
+#footer
+{
+    margin-top: 35%;
+    text-align: right;
+    height: 20px;
+    font-family: "Times New Roman";
+}
+p
+{
+    font-size: 20px;
+}
+a.boton { 
+    margin-top: 20px;
+    color: #000000; 
+    border: 2px #C0C0C0 solid; 
+    padding: 5px 20px 5px 20px; 
+    background-color: #91909c; 
+    font-family: Arial; 
+    font-size: 12px; 
+    font-weight: bold; 
+    text-decoration: none;  
+    background-repeat: no-repeat; 
+    border-radius: 15px; 
+} 
+a.boton:hover { 
+    box-shadow: 0px 0px 5px 0px #000000; 
+} 
+a.boton:active { 
+    color: #000000; 
+    background-color: #FFFFFF; 
+    box-shadow: 0px 0px 10px 0px #000000; 
+} 
+a.boton:visited { 
+    background-position: 0px -26px; 
+}
+#formul {  
+    padding: 20px 0px 0px 30px;   /* margen con valores: arriba - derecha - abajo - izquierda */ 
+    font-family: Arial; 
+    font-size:12pt; 
+}  
+
+.campos {  
+    font-family: Arial;     /* tipo de letra */  
+    width: 120px;                 /* anchura de campos de formulario */  
+    font-size:12pt;                /* tamaño de la letra*/   
+    color:#000000;                 /* color del texto */   
+    border: 1px dotted white;        /* color del borde puede ser solid ó dotted */   
+    background-color:#C0C0C0;    /* color del fondo */   
+}  
+
+.boton{ 
+    font-size:12px; 
+    font-family:Arial; 
+    font-weight:bold; 
+    color:#000000; 
+    background:#C0C0C0; 
+    border:0px; 
+    width:120px; 
+    height:25px; 
+} 
+
+#b_reset {  
+    margin: 0px 0px 0px 0px;    /* margen con valores: arriba - derecha - abajo - izquierda */  
+}  
+
+#b_submit {  
+    margin: 0px 0px 0px 0px;    /* margen con valores: arriba - derecha - abajo - izquierda */  
+}
